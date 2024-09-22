@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+/* ------------>Header */
+header h1 {
+  font-size: 35px;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+header h3 {
+  text-align: center;
+  color: #a9a9a9;
+  margin-top: 0px;
+  word-spacing: 2px;
+}
+header {
+  width: 92%;
+  height: 200px;
+  border: 1px solid;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+  border-radius: 10px;
+  background-color: #45474b;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+header nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: white;
+}
+header nav {
+  text-align: center;
+  margin-top: 25px;
+}
+header nav a:hover {
+  color: gold;
+}
+
+/* -------------->About Me Section */
+section.aboutMeSection {
+  position: relative;
+  width: 89%;
+  height: 330px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-bottom: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+section.aboutMeSection h2 {
+  margin-bottom: 0px;
+}
+section.aboutMeSection p {
+  margin-top: 0px;
+}
+section.aboutMeSection img {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  left: 45%;
+}
+/* -------------->Skills Section */
+.skill-section {
+  width: 91.5%;
+  position: relative;
+  height: 160px;
+  background: blue;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-image: url("img/skills.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.skill-header {
+  color: #bbbdc1;
+  margin: 20px;
+}
+.skill-list {
+  width: 98%;
+  height: 90px;
+  border-radius: 20px;
+  position: relative;
+  background: #a9a9a9de;
+  margin: auto;
+}
+#skill1 {
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgb(87, 175, 87);
+  top: 25px;
+  padding: 10px;
+  left: 10px;
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  list-style: none;
+}
+
+#skill2 {
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgb(87, 175, 87);
+  top: 25px;
+  padding: 10px;
+  left: 180px;
+  position: absolute;
+  width: 130px;
+  list-style: none;
+}
+#skill3 {
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgb(87, 175, 87);
+  top: 25px;
+  padding: 10px;
+  left: 360px;
+  position: absolute;
+  width: 120px;
+  list-style: none;
+}
+#skill4 {
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgb(87, 175, 87);
+  top: 25px;
+  padding: 10px;
+  left: 530px;
+  position: absolute;
+  width: 130px;
+  list-style: none;
+}
+#skill5 {
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgb(87, 175, 87);
+  top: 25px;
+  padding: 10px;
+  left: 710px;
+  position: absolute;
+  width: 180px;
+  list-style: none;
+}
+#skill6 {
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgb(87, 175, 87);
+  top: 25px;
+  padding: 10px;
+  left: 950px;
+  position: absolute;
+  width: 100px;
+  list-style: none;
+}
+#skill7 {
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgb(87, 175, 87);
+  top: 25px;
+  padding: 10px;
+  left: 1100px;
+  position: absolute;
+  width: 140px;
+  list-style: none;
+}
+#skill1:hover {
+  margin-top: 5px;
+  transition: ease-in;
+  cursor: pointer;
+  transition-duration: 100ms;
+}
+#skill2:hover {
+  cursor: pointer;
+  margin-top: 5px;
+  transition: ease-in;
+  transition-duration: 100ms;
+}
+#skill3:hover {
+  cursor: pointer;
+  margin-top: 5px;
+  transition: ease-in;
+  transition-duration: 100ms;
+}
+#skill4:hover {
+  cursor: pointer;
+  margin-top: 5px;
+  transition: ease-in;
+  transition-duration: 100ms;
+}
+#skill5:hover {
+  cursor: pointer;
+  margin-top: 5px;
+  transition: ease-in;
+  transition-duration: 100ms;
+}
+#skill6:hover {
+  cursor: pointer;
+  margin-top: 5px;
+  transition: ease-in;
+  transition-duration: 100ms;
+}
+#skill7:hover {
+  cursor: pointer;
+  margin-top: 5px;
+  transition: ease-in;
+  transition-duration: 100ms;
+}
+
+section.projectsSection {
+  width: 89%;
+  height: 780px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-bottom: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+section.projectsSection div.portfolio {
+  background-color: orange;
+  width: 215px;
+  height: 195px;
+  border-radius: 8px;
+  padding-top: 3px;
+  margin-left: 14px;
+  margin-bottom: 45px;
+  padding: 8px;
+}
+section.projectsSection div.ecommerce {
+  background-color: rgb(94, 59, 150);
+  width: 215px;
+  height: 195px;
+  border-radius: 8px;
+  padding-top: 3px;
+  margin-left: 14px;
+  padding: 8px;
+}
+section.projectsSection div.blog {
+  background-color: rgb(41, 76, 139);
+  width: 103%;
+  height: 195px;
+  border-radius: 8px;
+  padding-top: 3px;
+  margin-left: 14px;
+  padding: 8px;
+}
+section.projectsSection div.task {
+  position: absolute;
+  background-color: rgb(41, 76, 139);
+  width: 215px;
+  height: 195px;
+  border-radius: 8px;
+  padding-top: 3px;
+  margin-left: 14px;
+  top: 415px;
+  left: 135px;
+  padding: 8px;
+}
+section.projectsSection h4,
+section.projectsSection p {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+section.contactSection {
+  width: 90.5%;
+  height: 430px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-bottom: 30px;
+  padding-left: 22px;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+  background-color: #f5efff;
+}
+section.contactSection label {
+  display: block;
+  margin-bottom: 10px;
+}
+section.contactSection input,
+section.contactSection textarea {
+  width: calc(100% - 16.5px);
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+}
+section.contactSection textarea {
+  height: 70px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 8px 0 0 8px;
+}
+section.contactSection input {
+  height: 25px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px 0 0 8px;
+}
+section.contactSection button {
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  border: 2px solid #8fd14f;
+  background-color: white;
+  color: #8fd14f;
+}
+section.contactSection button:hover {
+  border: 2px solid #8fd14f;
+  background-color: #8fd14f;
+  color: white;
+  cursor: pointer;
+}
+footer {
+  width: 89%;
+  height: 40px;
+  margin-left: 60px;
+  border-radius: 7px;
+  margin-bottom: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+  background-color: #3c3d37;
+  text-align: center;
+  position: relative;
+}
+footer p {
+  margin: 0;
+  color: white;
+  line-height: 40px;
+}
+div.arrow {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  border: 1px solid black;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 55px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 8px;
+  background-color: #6256ca;
+  cursor: pointer;
+}
+div.arrow i {
+  margin-left: 10px;
+  margin-top: 5px;
+}
